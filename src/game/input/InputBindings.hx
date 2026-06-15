@@ -40,6 +40,17 @@ class InputBindings {
 		// Debug camera zoom reset (wheel delta is handled directly via hxd.Event in GameplayState).
 		controller.bindKeyboard(GameAction.DebugResetZoom, [Key.HOME]);
 
+		// Smart schedule navigation and hotkeys.
+		controller.bindKeyboard(GameAction.TabToday,    [Key.NUMBER_1]);
+		controller.bindKeyboard(GameAction.TabWeek,     [Key.NUMBER_2]);
+		controller.bindKeyboard(GameAction.TabCompare,  [Key.NUMBER_3]);
+		controller.bindKeyboard(GameAction.TabComments, [Key.NUMBER_4]);
+		controller.bindKeyboard(GameAction.ToggleTheme, [Key.T]);
+		controller.bindKeyboard(GameAction.Fullscreen,  [Key.F]);
+		controller.bindKeyboard(GameAction.Search,      [Key.QWERTY_SLASH]);
+		controller.bindKeyboard(GameAction.CycleGroup,  [Key.G]);
+		controller.bindKeyboard(GameAction.OpenWindow,  [Key.N]);
+
 		access = controller.createAccess();
 	}
 
