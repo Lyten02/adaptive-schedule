@@ -64,7 +64,9 @@ class ScheduleView {
 	}
 
 	function footer(m:ScheduleScreenModel):Void {
-		var text = "Свайпайте на телефоне • стрелки на ПК • F полноэкранно • / поиск • N новое окно";
+		var text = width < 520
+			? "Свайп: день/неделя - F fullscreen - / поиск"
+			: "Свайпайте на телефоне - стрелки на ПК - F fullscreen - / поиск - N новое окно";
 		if (m.message != "") text = m.message;
 		kit.label(text, 22, height - 28, 15, kit.theme.muted, width - 44);
 	}

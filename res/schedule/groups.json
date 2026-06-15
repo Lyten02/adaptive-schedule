@@ -2,7 +2,7 @@
   "groups": [
     {
       "id": "ИВТ-21",
-      "title": "ИВТ-21 — Информатика",
+      "title": "ИВТ-21 - Информатика",
       "lessons": [
         { "id": "mon_alg", "day": 0, "parity": "both", "start": "09:00", "end": "10:30", "title": "Алгоритмы и структуры данных", "teacher": "доц. Орлова", "room": "А-214", "kind": "lecture" },
         { "id": "mon_db", "day": 0, "parity": "odd", "start": "10:45", "end": "12:15", "title": "Базы данных", "teacher": "ст. пр. Никитин", "room": "Лаб-3", "kind": "practice" },
@@ -14,7 +14,7 @@
     },
     {
       "id": "ИВТ-22",
-      "title": "ИВТ-22 — Информатика",
+      "title": "ИВТ-22 - Информатика",
       "lessons": [
         { "id": "mon_db", "day": 0, "parity": "both", "start": "09:00", "end": "10:30", "title": "Базы данных", "teacher": "ст. пр. Никитин", "room": "Лаб-4", "kind": "practice" },
         { "id": "tue_alg", "day": 1, "parity": "both", "start": "09:00", "end": "10:30", "title": "Алгоритмы и структуры данных", "teacher": "доц. Орлова", "room": "А-214", "kind": "lecture" },
@@ -26,7 +26,7 @@
     },
     {
       "id": "ПМИ-31",
-      "title": "ПМИ-31 — Прикладная математика",
+      "title": "ПМИ-31 - Прикладная математика",
       "lessons": [
         { "id": "mon_stats", "day": 0, "parity": "both", "start": "10:45", "end": "12:15", "title": "Математическая статистика", "teacher": "проф. Романенко", "room": "Б-204", "kind": "lecture" },
         { "id": "tue_ml", "day": 1, "parity": "odd", "start": "13:00", "end": "14:30", "title": "Машинное обучение", "teacher": "доц. Белова", "room": "Лаб-2", "kind": "practice" },

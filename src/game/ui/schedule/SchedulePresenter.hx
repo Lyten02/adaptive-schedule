@@ -111,7 +111,7 @@ class SchedulePresenter {
 		c.id = l.id;
 		c.time = LessonTime.range(l.start, l.end);
 		c.title = l.title;
-		c.meta = l.teacher + " • " + l.room + " • " + l.parity.label();
+		c.meta = l.teacher + " - " + l.room + " - " + l.parity.label();
 		c.kindLabel = l.kind.badge() + " " + l.kind.label();
 		c.kindColor = l.kind.color();
 		c.note = ScheduleStorage.getString(ScheduleStorage.noteKey(l.id), "");
@@ -124,7 +124,7 @@ class SchedulePresenter {
 		var out:Array<CommentModel> = [];
 		for (g in repo.groups) for (l in repo.allLessons(g.id)) {
 			var note = ScheduleStorage.getString(ScheduleStorage.noteKey(l.id), "");
-			if (note != "") out.push(new CommentModel(l.id, l.title, g.id + " • " + l.teacher + " • " + l.room, note));
+			if (note != "") out.push(new CommentModel(l.id, l.title, g.id + " - " + l.teacher + " - " + l.room, note));
 		}
 		return out;
 	}

@@ -11,7 +11,7 @@ class LessonTime {
 	}
 
 	public static inline function range(start:String, end:String):String {
-		return start + "–" + end;
+		return start + "-" + end;
 	}
 
 	public static function minutesUntil(now:Date, start:String):Int {

@@ -35,8 +35,9 @@ class DrawKit {
 	}
 
 	public function label(text:String, x:Float, y:Float, size:Int, color:Int, ?maxWidth:Float):Text {
-		var t = new Text(FontRegistry.get(size), root);
-		t.text = text;
+		var font = FontRegistry.get(size);
+		var t = new Text(font, root);
+		t.text = TextSanitizer.clean(text, font);
 		t.textColor = color;
 		t.smooth = true;
 		if (maxWidth != null) t.maxWidth = maxWidth;
@@ -52,9 +53,13 @@ class DrawKit {
 		hits.push(new DrawHit(x, y, w, h, action));
 	}
 
-	public function chip(text:String, x:Float, y:Float, action:ScheduleAction, active:Bool = false):Float {
-		var w = Math.max(92, text.length * 10 + 28);
-		button(text, x, y, w, 38, action, active);
+	public function chipWidth(text:String, minWidth:Float = 92):Float {
+		return Math.max(minWidth, text.length * 10 + 28);
+	}
+
+	public function chip(text:String, x:Float, y:Float, action:ScheduleAction, active:Bool = false, minWidth:Float = 92, h:Float = 38):Float {
+		var w = chipWidth(text, minWidth);
+		button(text, x, y, w, h, action, active);
 		return w;
 	}
 

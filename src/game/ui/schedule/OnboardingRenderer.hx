@@ -9,7 +9,7 @@ class OnboardingRenderer {
 		var y = (h - mh) * 0.5;
 		k.fill(x, y, mw, mh, k.theme.panel, 1, 24);
 		k.label("Первый запуск", x + 30, y + 28, 30, k.theme.text);
-		k.label("Выберите свою группу — приложение запомнит её локально.", x + 30, y + 72, 18, k.theme.muted, mw - 60);
+		k.label("Выберите свою группу - приложение запомнит её локально.", x + 30, y + 72, 18, k.theme.muted, mw - 60);
 		var gx = x + 30;
 		var gy = y + 126;
 		for (g in m.groups) {
