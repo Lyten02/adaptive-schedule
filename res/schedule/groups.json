@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "id": "ИВТ-21",
+      "title": "ИВТ-21 - Информатика",
+      "lessons": [
+        { "id": "mon_alg", "day": 0, "parity": "both", "start": "09:00", "end": "10:30", "title": "Алгоритмы и структуры данных", "teacher": "доц. Орлова", "room": "А-214", "kind": "lecture" },
+        { "id": "mon_db", "day": 0, "parity": "odd", "start": "10:45", "end": "12:15", "title": "Базы данных", "teacher": "ст. пр. Никитин", "room": "Лаб-3", "kind": "practice" },
+        { "id": "tue_math", "day": 1, "parity": "both", "start": "11:00", "end": "12:30", "title": "Дискретная математика", "teacher": "проф. Соколова", "room": "Б-108", "kind": "lecture" },
+        { "id": "wed_web", "day": 2, "parity": "even", "start": "09:00", "end": "10:30", "title": "Web-разработка", "teacher": "асс. Ким", "room": "Лаб-5", "kind": "practice" },
+        { "id": "thu_os", "day": 3, "parity": "both", "start": "13:00", "end": "14:30", "title": "Операционные системы", "teacher": "доц. Громов", "room": "А-301", "kind": "lecture" },
+        { "id": "fri_test", "day": 4, "parity": "odd", "start": "14:45", "end": "16:15", "title": "Зачёт по английскому", "teacher": "пр. Смирнова", "room": "В-22", "kind": "credit" }
+      ]
+    },
+    {
+      "id": "ИВТ-22",
+      "title": "ИВТ-22 - Информатика",
+      "lessons": [
+        { "id": "mon_db", "day": 0, "parity": "both", "start": "09:00", "end": "10:30", "title": "Базы данных", "teacher": "ст. пр. Никитин", "room": "Лаб-4", "kind": "practice" },
+        { "id": "tue_alg", "day": 1, "parity": "both", "start": "09:00", "end": "10:30", "title": "Алгоритмы и структуры данных", "teacher": "доц. Орлова", "room": "А-214", "kind": "lecture" },
+        { "id": "tue_web", "day": 1, "parity": "even", "start": "10:45", "end": "12:15", "title": "Web-разработка", "teacher": "асс. Ким", "room": "Лаб-5", "kind": "practice" },
+        { "id": "wed_math", "day": 2, "parity": "both", "start": "11:00", "end": "12:30", "title": "Дискретная математика", "teacher": "проф. Соколова", "room": "Б-108", "kind": "lecture" },
+        { "id": "thu_os", "day": 3, "parity": "odd", "start": "09:00", "end": "10:30", "title": "Операционные системы", "teacher": "доц. Громов", "room": "А-301", "kind": "practice" },
+        { "id": "sat_exam", "day": 5, "parity": "even", "start": "10:00", "end": "11:30", "title": "Экзамен по программированию", "teacher": "проф. Ильин", "room": "Актовый зал", "kind": "exam" }
+      ]
+    },
+    {
+      "id": "ПМИ-31",
+      "title": "ПМИ-31 - Прикладная математика",
+      "lessons": [
+        { "id": "mon_stats", "day": 0, "parity": "both", "start": "10:45", "end": "12:15", "title": "Математическая статистика", "teacher": "проф. Романенко", "room": "Б-204", "kind": "lecture" },
+        { "id": "tue_ml", "day": 1, "parity": "odd", "start": "13:00", "end": "14:30", "title": "Машинное обучение", "teacher": "доц. Белова", "room": "Лаб-2", "kind": "practice" },
+        { "id": "wed_model", "day": 2, "parity": "both", "start": "09:00", "end": "10:30", "title": "Математическое моделирование", "teacher": "проф. Романенко", "room": "Б-210", "kind": "lecture" },
+        { "id": "thu_python", "day": 3, "parity": "even", "start": "10:45", "end": "12:15", "title": "Python для анализа данных", "teacher": "асс. Ким", "room": "Лаб-1", "kind": "practice" },
+        { "id": "fri_fin", "day": 4, "parity": "both", "start": "11:00", "end": "12:30", "title": "Финансовая математика", "teacher": "доц. Егорова", "room": "В-15", "kind": "lecture" },
+        { "id": "sat_credit", "day": 5, "parity": "odd", "start": "09:00", "end": "10:30", "title": "Зачёт по проекту", "teacher": "доц. Белова", "room": "Коворкинг", "kind": "credit" }
+      ]
+    }
+  ]
+}
